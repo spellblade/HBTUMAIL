@@ -1,6 +1,6 @@
 <?php ob_start(); session_set_cookie_params(time()+600,'/','http://www.hbtumail.decoder.co.in/',false,true);
 session_start(); ?>
-<?php if( $_SESSION['member'] == 'In'){ header( 'location:home.php' );  exit(); } ?>
+<!--<?php if( $_SESSION['member'] == 'In'){ header( 'location:home.php' );  exit(); } ?>-->
 <?php include('config.php'); ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
